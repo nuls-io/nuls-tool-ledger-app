@@ -61,7 +61,11 @@ Once the file is downloaded and saved to your device, unzip the files, then open
 
 #### Step 4: Verify your device environment
 
-Run “**python -m ledgerblue.runScript — help**” to verify the operational environment.
+Run the code to verify the operational environment.
+
+```plain
+python -m ledgerblue.runScript --help
+```
 
 ![image](./image/4.png)
 
@@ -71,7 +75,13 @@ The system will now begin to check the local environment as shown in the image b
 
 #### Step 5: Installation
 
-Proceed to install the NULS App by running the code “**python -m ledgerblue.runScript — scp — fileName bin/app.apdu — elfFile bin/app.elf**”.
+Proceed to install the NULS App by running the code 
+
+```plain
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x31100004 --targetVersion="2.1.0" --delete --fileName bin/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 64 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+
+```
+
 
 ![image](./image/6.png)
 
