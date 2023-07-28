@@ -42,7 +42,7 @@ Link to download:[ ](https://github.com/nuls-io/app-nuls/tree/main/hd-wallet)[ht
 
 To verify that the installation package is authentic and provided by NULS official team, it is highly recommended to check MD5 before you install it
 
-MD5 (hd-wallet/nuls2-hd-wallet.zip) = 0ac7d4517ab09f634c782ecb1a7ef310
+MD5 (hd-wallet/nuls2-hd-wallet.zip) = aafb1cb668cba0c2e455f22c4bb201ed
 
 
 ---

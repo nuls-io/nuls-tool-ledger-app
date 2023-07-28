@@ -304,8 +304,8 @@ bool is_built_in_assets() {
 static int  __init() {
 	switch(get_context_tx_type()) {
 			case 2:
-			case 5:
-			case 6:
+			//case 5:
+			//case 6:
 			case 10:
 			case 16:
 				return 0;
@@ -335,12 +335,12 @@ static void __dsp_st_type_init() {
 			case 2:
 				strcpy(text, "Transfer");
 				break;
-			case 5:
-				strcpy(text, "Deposit");
-				break;
-			case 6:
-				strcpy(text, "Withdraw");
-				break;
+			//case 5:
+			//	strcpy(text, "Deposit");
+			//	break;
+			//case 6:
+			//	strcpy(text, "Withdraw");
+			//	break;
 			case 10:
 				strcpy(text, "Cross Chain Transfer");
 				break;
@@ -786,12 +786,12 @@ __F:
 	 
 	 
 	 switch(get_context_tx_type()) { 
-		 case 5:
-			g_step_flow_callback = __ui_display_sign_tx_5;
-			break;
-		 case 6:
-		 	g_step_flow_callback = __ui_display_sign_tx_6;
-			break;
+		// case 5:
+		//	g_step_flow_callback = __ui_display_sign_tx_5;
+		//	break;
+		// case 6:
+		// 	g_step_flow_callback = __ui_display_sign_tx_6;
+		//	break;
 		 case 16:
 		 	if((strcmp((char *)get_context_tx_info().call_contract.method_name,  "transfer") == 0 || strcmp((char *)get_context_tx_info().call_contract.method_name,  "transferFrom") == 0) && is_built_in_assets()) {
 				 g_step_flow_callback = __ui_display_sign_tx_16_nrc20;

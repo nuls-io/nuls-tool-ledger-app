@@ -77,7 +77,7 @@ void switch_settings_blind_signing(void) {
 
 void display_settings(const ux_flow_step_t* const start_step) {
 
-	strcpy(dis_buff, N_storage.dataAllowed?ENABLED_STR:DISABLED_STR);
+	strlcpy(dis_buff, N_storage.dataAllowed?ENABLED_STR:DISABLED_STR, 45);
 	
     ux_flow_init(0, ux_settings_flow, start_step);
 }

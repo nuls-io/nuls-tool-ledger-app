@@ -81,9 +81,6 @@ bool init_public_key(buffer_t *cdata, bool is_gen_address) {
 
 			crypto_compress_public_key(G_context.pk_info.raw_public_key, G_context.pk_info.compressed_public_key);
 	     }
-        CATCH_OTHER(e) {
-            error = e;
-        }
         FINALLY {
             explicit_bzero(&private_key, sizeof(private_key));
         }

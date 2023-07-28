@@ -427,12 +427,12 @@ bool init_transaction_type( transaction_t *tx, uint16_t type) {
 		case 2:
 			tx->transaction_type.func= transaction_transfer_deserialize;
 			return true;
-		case 5:
-			tx->transaction_type.func= transaction_join_consensus_deserialize;
-			return true;
-		case 6:
-			tx->transaction_type.func= transaction_leave_consensus_deserialize;
-			return true;	
+		//case 5:
+		//	tx->transaction_type.func= transaction_join_consensus_deserialize;
+		//	return true;
+		//case 6:
+		//	tx->transaction_type.func= transaction_leave_consensus_deserialize;
+		//	return true;	
 		case 10:
 			tx->transaction_type.func= transaction_cross_chain_transfer_deserialize;
 			return true;
