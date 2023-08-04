@@ -97,7 +97,7 @@ Now your Ledger Wallet wakes up and asks to “Allow unsafe manager” : 
 
 At the same time, you should carefully review the information that is showing on your Ledger Wallet, which includes :
 
-**The NULS App version** : 1.0.0
+**The NULS App version** : 1.0.1
 
 ![image](./image/9.png)
 
