@@ -42,7 +42,7 @@ Link to download:[ ](https://github.com/nuls-io/app-nuls/tree/main/hd-wallet)[ht
 
 To verify that the installation package is authentic and provided by NULS official team, it is highly recommended to check MD5 before you install it
 
-MD5 (hd-wallet/nuls2-hd-wallet.zip) = aafb1cb668cba0c2e455f22c4bb201ed
+MD5 (hd-wallet/nuls2-hd-wallet.zip) = 63361c8a5cfd8e0c7397235b9a6627b3
 
 
 ---
@@ -77,8 +77,24 @@ The system will now begin to check the local environment as shown in the image b
 
 Proceed to install the NULS App by running the code 
 
+**NANOS**
+
 ```plain
-python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x31100004 --targetVersion="2.1.0" --delete --fileName bin/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 64 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x31100004 --targetVersion="2.1.0" --delete --fileName nanos/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 64 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+
+```
+
+**NANOSP**
+
+```plain
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x33100004 --targetVersion="" --delete --fileName nanos2/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 512 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+
+```
+
+**NANOS**
+
+```plain
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x200  --path "44'" --tlv --targetId 0x33000004 --targetVersion="" --delete --fileName nanox/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 256 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
 
 ```
 
