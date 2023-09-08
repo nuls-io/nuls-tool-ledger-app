@@ -77,21 +77,21 @@ The system will now begin to check the local environment as shown in the image b
 
 Proceed to install the NULS App by running the code 
 
-**NANOS**
+**Nano S**
 
 ```plain
 python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x31100004 --targetVersion="2.1.0" --delete --fileName nanos/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 64 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
 
 ```
 
-**NANOSP**
+**Nano SP**
 
 ```plain
 python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x33100004 --targetVersion=""  --apiLevel 1 --delete --fileName nanos2/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 512 --icon 0100000000ffffff00ffffffffe7fff57ffd73ffdabff5effcebfffa7ffeffffff0f
 
 ```
 
-**NANOX**
+**Nano X**
 
 ```plain
 python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x200  --path "44'" --tlv --targetId 0x33000004 --targetVersion="" --apiLevel 1 --delete --fileName nanox/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 256 --icon 0100000000ffffff00ffffffffe7fff57ffd73ffdabff5effcebfffa7ffeffffff0f
