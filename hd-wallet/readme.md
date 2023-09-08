@@ -87,14 +87,14 @@ python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --t
 **NANOSP**
 
 ```plain
-python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x33100004 --targetVersion="" --delete --fileName nanos2/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 512 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x000 --path "44'" --tlv --targetId 0x33100004 --targetVersion="" --apiLevel 1 --delete --fileName nanos2/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 512 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
 
 ```
 
-**NANOS**
+**NANOX**
 
 ```plain
-python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x200  --path "44'" --tlv --targetId 0x33000004 --targetVersion="" --delete --fileName nanox/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 256 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
+python -m ledgerblue.loadApp --curve secp256k1 --appFlags 0x200  --path "44'" --tlv --targetId 0x33000004 --targetVersion="" --apiLevel 1 --delete --fileName nanox/app.hex --appName "NULS" --appVersion "1.0.1" --dataSize 256 --icon 0100000000ffffff00fffffffffffffffcfffafffa9ffb5ffbdffadff95fff5fff3fffffffffffffff
 
 ```
 
