@@ -1,6 +1,6 @@
-# Ledger NULS Application
+# NULS2.0 Ledger Application
 
-Wallet Application for several NULS cryptocurrency: https://nuls.io/
+Ledger Application for several NULS Blockchain Assets: https://nuls.io/
 
 ## Prerequisite
 
@@ -34,3 +34,41 @@ make load     # load the app on the Nano using ledgerblue
 
 High level documentation such as [APDU](doc/APDU.md), [commands](doc/COMMANDS.md) and [transaction serialization](doc/TRANSACTION.md) are included in developer documentation which can be generated with [doxygen](https://www.doxygen.nl)
 
+
+## Contribute to Ledger Application
+Click Star and Fork to start contributing improvements to this module.
+Hope more contributors can submit improvement suggestions and bug reports here.
+Issues: https://github.com/nuls-io/app-nuls/issues
+
+
+## Contribute to NULS
+We are committed to making blockchain technology simpler and our slogan is "NULS Making It Easier to Innovate".
+
+Get to know NULS developers
+https://nuls.io/developer
+
+You are welcome to contribute to NULS! We sincerely invite developers with rich experience in the blockchain field to join the NULS technology community.
+https://nuls.io/community
+
+Documentation：https://docs.nuls.io
+
+NULS Brand Assets: https://nuls.io/brand-assets
+
+
+
+## License
+
+NULS is released under the [MIT](http://opensource.org/licenses/MIT) license.
+Modules added in the future may be release under different license, will specified in the module library path.
+
+## Community
+
+- Website: https://nuls.io
+- Twitter: https://twitter.com/nuls
+- Discord:https://discord.gg/aRCwbj47WN
+- Telegram: https://t.me/Nulsio)
+- Medium: https://nuls.medium.com
+- Forum: https://forum.nuls.io
+- GitHub: https://github.com/nuls-io
+
+####  
